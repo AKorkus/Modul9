@@ -28,7 +28,7 @@ def open_currencies(mode="r", kontent=""):
     '''
     Open file currencies.
     '''
-    currency_tab = open_base("\currencies.txt", mode, kontent)
+    currency_tab = open_base("currencies.txt", mode, kontent)
     return currency_tab
 
 
